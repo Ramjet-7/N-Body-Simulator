@@ -17,7 +17,7 @@ It is important to note that in equation $(1)$, the mass creating the gravitatio
 $$\vec{a_3} = \frac{\mu_1 (\vec{r_1}-\vec{r_3})}{||\vec{r_1}-\vec{r_3}||^3}+\frac{\mu_2 (\vec{r_2}-\vec{r_3})}{||\vec{r_2}-\vec{r_3}||^3}+\frac{\mu_4 (\vec{r_4}-\vec{r_3})}{||\vec{r_4}-\vec{r_3}||^3}+\frac{\mu_5 (\vec{r_5}-\vec{r_3})}{||\vec{r_5}-\vec{r_3}||^3}$$
 <br/>
 <br/>
-We can generalize this equation so that it can work for any number of masses. If we have a set of $n$ masses $\\{M_1, M_2, \dots, M_{n-1}, M_n\\}$, then the acceleration of the x-th mass in the set can be found with $$\vec{a_x} = \sum_{\substack{i=1 \\\ i\neq x}}^n \frac{\mu_i(\vec{r_i}-\vec{r_x})}{{||\vec{r_i}-\vec{r_x}||}^3} \quad \\{x, n \in \mathbb{N} \mid x \leq n\\} \tag 2$$
+We can generalize this equation so that it can work for any number of masses. If we have a set of $n$ masses $\\{M_1, M_2, \dots, M_{n-1}, M_n\\}$, then the acceleration of the x-th mass in the set can be found with $$\tag 2 \vec{a_x} = \sum_{\substack{i=1 \\\ i\neq x}}^n \frac{\mu_i(\vec{r_i}-\vec{r_x})}{{||\vec{r_i}-\vec{r_x}||}^3} \quad \\{x, n \in \mathbb{N} \mid x \leq n\\}$$
 <br/>
 ### The Computer Program
 <br/>
